@@ -10,7 +10,7 @@ import (
 )
 
 // TODO - something magical is going to happen here..
-
+// GetEnv
 func GetEnv(name string) string {
 	v := os.Getenv(name)
 	if v == "" {
